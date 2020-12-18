@@ -1,0 +1,18 @@
+.header{
+    grid-column: full-start / col-end 6;
+    background-image: linear-gradient($color-secondary,.93),
+     rgba($color-secondary,.93), url(../img/hero.jpeg);
+    background-size: cover;
+    background-position: center;
+    &__logo{
+        height: 3rem;
+    }
+    &__seenon-text{
+
+    }
+    &__seenon-logos{
+        img{
+            height: 2.5rem;
+        }
+    }
+}
